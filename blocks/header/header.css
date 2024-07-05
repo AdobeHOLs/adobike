@@ -129,9 +129,14 @@ button.gnav-toggle::after {
 
 .gnav .gnav-brand img {
   margin-right: var(--spacing-xxs);
-  width: 27px;
+ /* width: 27px;*/
   height: 26px;
 }
+
+a.gnav-brand.link-highlight-colorful-effect-hover-wrapper > span.link-highlight-colorful-effect {
+  display: none;
+}
+
 
 /* right side cta button */
 .gnav .gnav-cta-button-wrapper {
